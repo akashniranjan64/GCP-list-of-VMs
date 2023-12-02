@@ -1,0 +1,20 @@
+- correct the fetchall() as it gives the list with tuples. my implementation is wrong because i am using regex -> DONE
+- update DB method -> DONE
+
+- remove project_list table usage -> WIP
+
+- logging - think
+- schedule table sat sunday monday -> think
+- Approval for the schedules has to be to done -> think
+
+
+- remove the shell file to completely use the api
+- write pyway script for DB setup
+- Approval process from the teams
+- add exclusiion vm which run 24 hr
+
+
+ISSUE :
+- unble to ssh the server to test the script
+- reason : shared network do not allow IAP access in playground unable to SSH
+- internal network vpc is allowing the ssh but not the internet already used allow-internet tag

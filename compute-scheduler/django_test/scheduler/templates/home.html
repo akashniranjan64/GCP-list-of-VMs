@@ -1,0 +1,9 @@
+<h1>VMs list</h1>
+
+{% for items in all %}
+ptoject name : {{ items.project_name }} </br>
+vm name : {{ items.vm_name }}</br>
+schedule start : {{ items.vm_sch_start }}</br>
+schedule stop : {{ items.vm_sch_stop }}</br>
+<hr>
+{% endfor %}
